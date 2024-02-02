@@ -22,6 +22,7 @@ Route::get('/addcategory',[CategoryController::class,'ajouter']);
 Route::post('/category',[CategoryController::class,'store']);
 
 Route::get('/delete/{id}', [CategoryController::class, 'delete']);
+Route::get('/produit', [CategoryController::class, 'productView']);
 
 
 

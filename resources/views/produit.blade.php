@@ -304,15 +304,13 @@
                                 <tr>
                                     <th>Id</th>
                                     <th>Name</th>
-                                    <th>Supp</th>
-                                    <th></th>
-
-
-
+                                    <th>description</th>
+                                    <th>price</th>
+                                    <th>image</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($category as $category )
+                                {{-- @foreach ($category as $category )
                                 <tr>
                                     <td>{{$category->id}}</td>
                                     <td>{{$category->name}}</td>
@@ -329,7 +327,7 @@
                                 </tr>
 
 
-                                @endforeach
+                                @endforeach --}}
 
 
                             </tbody>

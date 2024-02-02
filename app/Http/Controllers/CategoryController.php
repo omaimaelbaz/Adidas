@@ -34,9 +34,8 @@ class CategoryController extends Controller
             return redirect('/category');
         }
 
-        public function delete($id)
+public function delete($id)
 {
-    // Récupérer la catégorie à supprimer
     $category = Category::find($id);
 
         // Supprimer la catégorie
